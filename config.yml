@@ -1,0 +1,31 @@
+##################################
+#                                #
+#  Plugin created by Caranouga   #
+#                                #
+##################################
+#                                #
+# $prefix = prefix of the plugin #
+# $player = player's nickname    #
+# $message = player's message    #
+#                                #
+##################################
+
+layout:
+  stc: "$prefix <$player> $message"
+  alert: "Alert from $player:\n$message"
+  broadcast: "Broadcast of $player:\n$message"
+  help: "Here are the commands for the plugin:\n\n
+
+  - +stc <message> = Allows you to send messages in the staff chat\n
+  - +alert <message> = Allows you to send alert messages\n
+  - +broadcast <message> = Allows you to send broadcast messages\n
+  - /mphelp = Display this help page"
+
+commands:
+  staffchat: "+stc"
+  alert: "+alert"
+  broadcast: "+bc"
+
+
+utils:
+  prefix: "[ChatPlus]"

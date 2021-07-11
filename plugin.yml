@@ -1,0 +1,7 @@
+name: ChatPlus
+main: fr.caranouga.chatplus.ChatPlus
+version: 1.0
+commands:
+  cphelp:
+    description: Vous permet d afficher la page d aide du plugin
+    usage: /<command>
